@@ -1,0 +1,61 @@
+.intro
+{
+    margin: auto;
+    padding-left: 170px; 
+    padding-right: 170px;
+    padding-top: 200px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px
+}
+.red
+{
+    color: #B21919;
+}
+
+.btn-primary.btn-lg
+{
+    float: right;
+    background-color: #B21919;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    border-color: #B21919;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #B21919;
+}
+.btn-primary.btn-lg:hover {
+    color: #fff;
+    background-color: #941313;
+    border-color: #941313;
+}
+.navbar-light.bg-light {
+    background-color: white!important; 
+}
+*{
+    box-sizing: border-box;
+}
+
+.nav-item.active.custom-active-tab>a.nav-link{
+    color:#B21919;
+    
+}
+
+img.img-fluid.nonprofit-logo {
+    max-width: 100%;
+    height: 50px;
+}
+.headline
+{
+    margin: auto;
+    padding-left: 170px; 
+    padding-right: 170px;
+    padding-top: 200px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px; 
+}
