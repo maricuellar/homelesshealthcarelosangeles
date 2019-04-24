@@ -39,11 +39,6 @@
     box-sizing: border-box;
 }
 
-.nav-item.active.custom-active-tab>a.nav-link{
-    color:#B21919;
-    
-}
-
 img.img-fluid.nonprofit-logo {
     max-width: 100%;
     height: 50px; 
@@ -99,7 +94,7 @@ div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: right;
-    width: 180px;
+    max-width: 180px;
   }
   
   div.gallery:hover {
@@ -107,7 +102,7 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
   
@@ -124,8 +119,37 @@ div.gallery {
     margin: 10px;
     /* border: 1px solid #ccc; */
     float: right;
-    width: 700px;
+    max-width:700px;
     border: none;
 }
 div.gallery:hover {
     border: none;
+}
+.img-fluid-people {
+    margin: 10px;
+float: right;
+max-width:700px;
+border: none;
+}
+
+ @media only screen and (min-width: 414px) {
+    .bottom-right {
+        color:#B21919;
+        font-size: 40px;
+    }
+
+ }
+
+@media only screen and (min-width: 768px) {
+    .bottom-right {
+        color: black;
+        font-size: 30px;
+        bottom: 20px;
+    right: 40px;
+    font-family: Helvetica, sans-serif;
+    color: #B21919;
+    font-weight: bold;
+    font-size: 80px;
+      }
+    
+     
