@@ -59,3 +59,79 @@ img.img-fluid.nonprofit-logo {
     font-weight: normal;
     font-size: 40px; 
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+.introtext {
+    font-size: 35px;
+}
+.maincopy {
+    font-weight: normal;
+    font-size: 15px;
+}
+.vl {
+    border-left: 3px solid #B21919;
+    height: 600px;
+    position: absolute;
+    left: 12%;
+    margin-left: -3px;
+    top: 700px;
+}
+.learnmore{
+    color: #B21919;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.learnmore:hover{
+    color: #941313;
+}
+.maincontainer{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+.thecard{
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transition: all 0.5s ease;
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background:#C3C3C3;
+    color: #B21919;
+    text-align: center;
+    padding: 70px 0;
+    display: inline-block;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    
+
+}
+.theback{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color: #333333;
+    transform: rotateY(180deg);
+    text-align: center;
+    padding: 38px 0;
+    font-size: 12px;
+}

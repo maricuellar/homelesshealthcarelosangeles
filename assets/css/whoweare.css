@@ -77,11 +77,13 @@ img.img-fluid.nonprofit-logo {
     font-family: helvetica;
     font-weight: bold;
 }
-.subheadline{
+
+.subheadline {
     font-weight: 600;
     font-size: 40px;
 
 }
+
 .maincopy {
     font-weight: normal;
     font-size: 15px;
@@ -106,11 +108,13 @@ img.img-fluid.nonprofit-logo {
     height: auto;
     opacity: .7;
 }
+
 .col-md-2 {
     float: right;
     padding-top: 11%;
 
 }
+
 .col-md-2.mod {
     padding-right: 0px;
     padding-left: 0px;
@@ -122,6 +126,69 @@ img.img-fluid.nonprofit-logo {
 .photos {
     margin-right: 5%;
 }
+.otherhl{
+    text-align: center;
+    color: #B21919;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.row {
+    padding-top: 15px;
+}
+.title{
+    color: #B21919;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+}
+.text{
+    font-family: Helvetica, sans-serif;
+}
+@media only screen and (min-width: 375px) {
+    .bottom-right {
+        color: #B21919;
+        font-size: 20px;
+    }
+
+    .subheadline {
+        font-weight: 600;
+        font-size: 10px;
+
+    }
+
+    .maincopy {
+        font-weight: normal;
+        font-size: 7px;
+    }
+
+    .vl {
+        border-left: 1.5px solid #B21919;
+        height: 650px;
+        position: absolute;
+        left: 10%;
+        margin-left: -3px;
+        top: 250px;
+    }
+
+    .col-md-2.mod {
+        padding-right: 0px;
+        padding-left: 0px;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+    }
+
+    .col-md-2.mod {
+        padding-right: 0px;
+        padding-left: 0px;
+        position: relative;
+        width: 15%;
+        min-height: 1px;
+    }
+}
+
 
 
 @media only screen and (min-width: 414px) {
@@ -129,23 +196,27 @@ img.img-fluid.nonprofit-logo {
         color: #B21919;
         font-size: 30px;
     }
-    .subheadline{
+
+    .subheadline {
         font-weight: 600;
         font-size: 20px;
-    
+
     }
+
     .maincopy {
         font-weight: normal;
         font-size: 9px;
     }
+
     .vl {
         border-left: 3px solid #B21919;
-        height: 1000px;
+        height: 650px;
         position: absolute;
         left: 10%;
         margin-left: -3px;
-        top: 190px;
+        top: 250px;
     }
+
     .col-md-2.mod {
         padding-right: 0px;
         padding-left: 0px;
@@ -153,7 +224,7 @@ img.img-fluid.nonprofit-logo {
         width: 20%;
         min-height: 1px;
     }
-    
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -167,22 +238,34 @@ img.img-fluid.nonprofit-logo {
         font-weight: bold;
         font-size: 80px;
     }
-    .subheadline{
+
+    .subheadline {
         font-weight: 600;
         font-size: 40px;
-    
+
     }
+
     .maincopy {
         font-weight: normal;
         font-size: 15px;
     }
+
     .vl {
         border-left: 5px solid #B21919;
-        height: 800px;
+        height: 600px;
         position: absolute;
         left: 10%;
         margin-left: -3px;
-        top: 390px;
+        top: 400px;
     }
-    
+
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
