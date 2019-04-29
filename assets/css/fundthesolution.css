@@ -59,12 +59,15 @@ img.img-fluid.nonprofit-logo {
     font-size: 80px;
   }
 
-.vl {
-    border-left: 5px solid #B21919;
-    height: 500px;
-    height: 500px;
-    position: absolute;
-    left: 10%;
-    margin-left: -3px;
-    top: 390px;
-  }
+ .vl {
+        border-left: 1.5px solid #B21919;
+        height: 650px;
+        position: absolute;
+        left: 10%;
+        margin-left: -3px;
+        top: 250px;
+    }
+  .red
+{
+    color: #B21919;
+}
