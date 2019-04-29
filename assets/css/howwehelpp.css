@@ -1,0 +1,113 @@
+.btn
+{
+    background-color: #B21919;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    float: right;
+    
+
+}
+.btn-primary.btn-lg
+{
+    float: right;
+    background-color: #B21919;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    border-color: #B21919;
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #B21919;
+}
+.btn-primary.btn-lg:hover {
+    color: #fff;
+    background-color: #941313;
+    border-color: #941313;
+}
+.navbar-light.bg-light {
+    background-color: white!important; 
+}
+*{
+    box-sizing: border-box;
+}
+
+.nav-item.active.custom-active-tab>a.nav-link{
+    color:#B21919;
+    
+}
+
+img.img-fluid.nonprofit-logo {
+    max-width: 100%;
+    height: 50px;
+}
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-family: Helvetica, sans-serif;
+    color: #B21919;
+    font-weight: bold;
+    font-size: 80px;
+  }
+
+.vl {
+    border-left: 5px solid #B21919;
+    height: 700px;
+    position: absolute;
+    left: 10%;
+    margin-left: -3px;
+    top: 390px;
+  }
+
+.red
+{
+color: #B21919;
+}
+.subheadline {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.subheadline1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+
+}
+.introimage {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.otherhl{
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+    background-color: #B21919
+}
+.subheadline2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 38px;
+}
+.text{
+    padding-top: 30px;
+    padding-bottom: 5px; 
+}
