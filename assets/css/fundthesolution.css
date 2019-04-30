@@ -59,15 +59,73 @@ img.img-fluid.nonprofit-logo {
     font-size: 80px;
   }
 
- .vl {
-        border-left: 1.5px solid #B21919;
-        height: 650px;
-        position: absolute;
-        left: 10%;
-        margin-left: -3px;
-        top: 250px;
-    }
+  .vl {
+    border-left: 5px solid #B21919;
+    height: 620px;
+    position: absolute;
+    left: 10%;
+    margin-left: -3px;
+    top: 390px;
+}
   .red
 {
     color: #B21919;
 }
+.subheadline {
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.giver-image{
+    height:auto;
+    width: 500px;
+    float: right;
+}
+.subheadline2 {
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+.subheadline3 {
+    font-weight: 600;
+    font-size: 50px;
+
+}
+@media only screen and (min-width: 375px) {
+    .bottom-right { 
+        color: #B21919;
+        font-size: 15px;
+    }
+    .vl {
+        border-left: 5px solid #B21919;
+        height: 620px;
+        position: absolute;
+        margin-left: -3px;
+        top: 390px;
+    }
+    
+}
+@media only screen and (min-width: 414px) {
+    .bottom-right {
+        color: #B21919;
+        font-size: 40px;
+    }
+  
+}
+@media only screen and (min-width: 768px) {
+    .bottom-right {
+        color: #B21919;
+        font-size: 80px;
+    }
+    .vl {
+        border-left: 5px solid #B21919;
+        height: 620px;
+        position: absolute;
+        left: 10%;
+        margin-left: -3px;
+        top: 390px;
+    }
+}
+
+
