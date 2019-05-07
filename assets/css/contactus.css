@@ -59,38 +59,56 @@ img.img-fluid.nonprofit-logo {
     font-size: 80px;
   }
 
-  .vl {
+.vl {
     border-left: 5px solid #B21919;
-    height: 620px;
+    height: 700px;
     position: absolute;
     left: 10%;
     margin-left: -3px;
     top: 390px;
-}
-  .red
+  }
+
+.red
 {
-    color: #B21919;
+color: #B21919;
 }
 .subheadline {
     font-weight: 600;
     font-size: 40px;
 
 }
-.giver-image{
-    height:auto;
-    width: 500px;
-    float: right;
+.subheadline1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+
+}
+.introimage {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.otherhl{
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+    background-color: #B21919
 }
 .subheadline2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     font-weight: 600;
-    font-size: 40px;
-    padding-top: 80px;
-
+    font-size: 38px;
 }
-.subheadline3 {
-    font-weight: 600;
-    font-size: 50px;
-
+.text{
+   text-align: center;
 }
 @media only screen and (min-width: 375px) {
     .bottom-right { 
@@ -104,12 +122,20 @@ img.img-fluid.nonprofit-logo {
         margin-left: -3px;
         top: 390px;
     }
+    .maincopy {
+        font-weight: normal;
+        font-size: 10px;
+    }
     
 }
 @media only screen and (min-width: 414px) {
     .bottom-right {
         color: #B21919;
         font-size: 40px;
+    }
+    .maincopy {
+        font-weight: normal;
+        font-size: 10px;
     }
   
 }
@@ -125,6 +151,10 @@ img.img-fluid.nonprofit-logo {
         left: 10%;
         margin-left: -3px;
         top: 390px;
+    }
+    .maincopy {
+        font-weight: normal;
+        font-size: 15px;
     }
 }
 .footer {
@@ -150,4 +180,3 @@ img.img-fluid.nonprofit-logo {
     height:23px;
     padding-right: 8px;
 }
-
