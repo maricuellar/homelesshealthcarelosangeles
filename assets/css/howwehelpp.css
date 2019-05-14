@@ -103,14 +103,10 @@ color: #B21919;
 .subheadline2 {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 20px;
     font-weight: 600;
     font-size: 38px;
 }
-.text{
-    padding-top: 30px;
-    padding-bottom: 5px; 
-}
+
 @media only screen and (min-width: 375px) {
     .bottom-right { 
         color: #B21919;
@@ -127,6 +123,16 @@ color: #B21919;
         font-weight: normal;
         font-size: 10px;
     }
+    .subheadline2 {
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+    }
+    .text{ 
+        font-size: 15px;
+        text-align: center;
+    }
     
 }
 @media only screen and (min-width: 414px) {
@@ -134,11 +140,38 @@ color: #B21919;
         color: #B21919;
         font-size: 40px;
     }
+    .subheadline {
+        font-weight: 600;
+        font-size: 40px;
+        padding-left: 0px;
+    }
     .maincopy {
         font-weight: normal;
-        font-size: 10px;
+        font-size: 12px;
+        padding-left: 0px;
+    }
+    .text{ 
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .subheadline2 {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
     }
   
+}
+@media only screen and (min-width: 271px) {
+    .subheadline {
+        font-weight: 600;
+        font-size: 40px;
+        padding-left: 70px;
+    } 
+    .maincopy {
+        font-weight: normal;
+        font-size: 12px;
+        padding-left: 70px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .bottom-right {
@@ -153,9 +186,27 @@ color: #B21919;
         margin-left: -3px;
         top: 390px;
     }
+    .subheadline {
+        font-weight: 600;
+        font-size: 40px;
+        padding-left: 0px;
+    }
     .maincopy {
         font-weight: normal;
         font-size: 15px;
+        padding: 0px;
+    }
+    .subheadline2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .text{
+        padding-top: 20px;
+        padding-bottom: 5px; 
+        text-align: left;
     }
 }
 .footer {

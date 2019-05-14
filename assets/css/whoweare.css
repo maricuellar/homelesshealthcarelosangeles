@@ -32,6 +32,9 @@
     background-color: #941313;
     border-color: #941313;
 }
+.nav-item.active.custom-active-tab>a.nav-link {
+    color: #B21919;
+}
 
 .navbar-light.bg-light {
     background-color: white !important;
@@ -236,11 +239,11 @@ img.img-fluid.nonprofit-logo {
 
     .vl {
         border-left: 3px solid #B21919;
-        height: 650px;
+        height: 500px;
         position: absolute;
         left: 10%;
         margin-left: -3px;
-        top: 250px;
+        top: 218px;
     }
 
     .col-md-2.mod {

@@ -18,6 +18,14 @@
     border-color: #B21919;
 
 }
+.col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 90px;
+}
 
 .btn-primary {
     color: #fff;
@@ -25,11 +33,17 @@
 }
 .btn-primary.btn-lg:hover {
     color: #fff;
-    background-color: #941313;
-    border-color: #941313;
 }
 .navbar-light.bg-light {
     background-color: white!important; 
+}
+.btn-primary {
+    color: #fff;
+    background-color:#941313;
+    border-color: #941313;
+}
+button.btn.btn-primary.donate {
+    background-color: #941313;
 }
 *{
     box-sizing: border-box;
@@ -104,12 +118,36 @@ img.img-fluid.nonprofit-logo {
         margin-left: -3px;
         top: 390px;
     }
+  
+  
     
 }
 @media only screen and (min-width: 414px) {
     .bottom-right {
         color: #B21919;
         font-size: 40px;
+    }
+    .subheadline {
+        font-weight: 600;
+        font-size: 40px;
+        padding-left: 30px;
+    
+    }
+    .col-sm-4.subheadline {
+        padding-left: 80px;
+    }
+    p {
+        padding-left: 71px;
+    }
+    .col-3.subheadline3.red {
+        text-align: left;
+
+    }
+    h5.red {
+        padding-left: 70px;
+    }
+    .subheadline2{
+        text-align: center;
     }
   
 }
@@ -126,6 +164,29 @@ img.img-fluid.nonprofit-logo {
         margin-left: -3px;
         top: 390px;
     }
+    .subheadline {
+        font-weight: 600;
+        font-size: 40px;
+        padding-left: 0px;
+    
+    }
+    .col-sm-4.subheadline {
+        padding-left: 0px;
+    }
+    p {
+        padding-left: 0px;
+    }
+    .col-3.subheadline3.red {
+        text-align: center;
+    }
+    h5.red {
+        padding-left: 0px;
+    }
+  
+    .subheadline2{
+        text-align: left;
+    }
+  
 }
 .footer {
     left: 0;
