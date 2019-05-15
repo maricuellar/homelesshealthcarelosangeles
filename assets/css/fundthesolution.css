@@ -44,6 +44,7 @@
 }
 button.btn.btn-primary.donate {
     background-color: #941313;
+    border-color: #941313;
 }
 *{
     box-sizing: border-box;
